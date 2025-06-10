@@ -15,3 +15,35 @@ Clona el repositorio:
 ```bash
 git clone https://github.com/tu_usuario/calculadora-js.git
 cd calculadora-js
+```
+
+## Pruebas rápidas
+
+Edita `index.html` o usa consola del navegador:
+```bash
+<script src="calculadora.js"></script>
+<script>
+  console.log(sumar(2, 3)); // 5
+  console.log(dividir(6, 2)); // 3
+</script>
+```
+
+## Estructura del proyecto
+
+```bash
+calculadora-js/
+├── calculadora.js
+└── README.md
+```
+
+## Futuras mejoras
+
+- Agregar interfaz gráfica con HTML/CSS
+- Crear pruebas automatizadas con Jest
+- Convertir en módulo NPM
+
+Guarda, agrega y haz push:
+```bash
+git add README.md
+git commit -m "Agregar README detallado del proyecto"
+git push origin main
